@@ -1,0 +1,52 @@
+button{
+    background: none;
+    border: none;
+    width: 49%; height: 90%;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: all 0.4s ease-in-out;
+
+}
+button:hover{
+    cursor: pointer;
+    color: blue;
+    font-size: 1.5rem;
+}
+
+.pj{
+    width: 90%; height: 100px;
+    background: #ccaeea;
+    /* opacity: 0.7; */
+    margin: 1%;
+    border-radius: 50px;;
+    transition: all 0.4s ease-in-out;
+    /* border: 0px solid rgba(255,255,255,0.5); */
+    /* box-sizing: border-box; */
+}
+.pj:hover {
+    background: #aa9cc9;
+    /* border: none; */
+    /* border: 10px solid rgba(255,255,255,0.3); */
+    /* box-sizing: border-box; */
+}
+ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+.pr{
+    width: 44.5%; height: 70px;
+    background: #ffcea5;
+    margin: 1%;
+    border-radius: 50px;;
+    transition: all 0.4s ease-in-out;
+}
+.pr button {
+    width: 100%; 
+}
+.pr button:hover{
+    color: goldenrod;
+}
+.pr:hover{
+    background-color: #eedbc9;
+}
