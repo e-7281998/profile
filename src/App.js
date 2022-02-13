@@ -10,12 +10,17 @@ const pj = [
     git: "https://github.com/e-7281998/cat-jjal-maker/tree/main/cat-jjal-maker-cra"
   },
   {
-    id: 2, title: '여행 사이트',
+    id: 2, title: 'To Do List',
+    site: "https://e-7281998.github.io/study_react/",
+    git: "https://github.com/e-7281998/study_react/tree/master/todo-app"
+  },
+  {
+    id: 3, title: '여행 사이트',
     site: "https://e-7281998.github.io/portfolio_site/Private_holidays/",
     git: "https://github.com/e-7281998/portfolio_site/tree/master/Private_holidays"
   },
   {
-    id: 3, title: '패션 사이트',
+    id: 4, title: '패션 사이트',
     site: "https://e-7281998.github.io/portfolio_site/Avenue%20Fashion/",
     git: "https://github.com/e-7281998/portfolio_site/tree/master/Avenue%20Fashion"
   }
