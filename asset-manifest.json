@@ -1,15 +1,18 @@
 {
   "files": {
-    "main.css": "/profile/static/css/main.864ece31.css",
-    "main.js": "/profile/static/js/main.7d2197da.js",
+    "main.css": "/profile/static/css/main.7bffbb84.css",
+    "main.js": "/profile/static/js/main.69dfb2cb.js",
     "static/js/787.f2a0fa2f.chunk.js": "/profile/static/js/787.f2a0fa2f.chunk.js",
+    "static/media/영화정보.png": "/profile/static/media/영화정보.4345f087d13e8b1e8b7b.png",
+    "static/media/고양이가라사대.png": "/profile/static/media/고양이가라사대.62f684a126f832fb10e7.png",
+    "static/media/포트폴리오.png": "/profile/static/media/포트폴리오.804ab71efab9811e5a81.png",
     "index.html": "/profile/index.html",
-    "main.864ece31.css.map": "/profile/static/css/main.864ece31.css.map",
-    "main.7d2197da.js.map": "/profile/static/js/main.7d2197da.js.map",
+    "main.7bffbb84.css.map": "/profile/static/css/main.7bffbb84.css.map",
+    "main.69dfb2cb.js.map": "/profile/static/js/main.69dfb2cb.js.map",
     "787.f2a0fa2f.chunk.js.map": "/profile/static/js/787.f2a0fa2f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.864ece31.css",
-    "static/js/main.7d2197da.js"
+    "static/css/main.7bffbb84.css",
+    "static/js/main.69dfb2cb.js"
   ]
 }
