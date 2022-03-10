@@ -1,0 +1,93 @@
+section{
+    text-align: center;
+}
+h1{
+    width: 100%;
+    padding: 1rem;
+    border-bottom: 0.125rem solid #cbe8fc;
+}
+div{
+    width: 100%;
+}
+.info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-weight: 500;
+    border-bottom: 0.125rem solid #cbe8fc;
+}
+.info > p{
+    margin: 0.5rem 1rem;
+    padding: 1rem;
+}
+svg{
+    padding: 0.0625rem;
+}
+.info ul{
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+}
+.info ul p{
+    padding: 0.5rem 1rem;
+}
+.info li{
+    padding: 0.5rem 1rem;
+    margin: 0.125rem;
+    box-sizing: border-box;
+    background: rgba(240, 248, 255,0.5);
+    border-radius: 0.125rem;
+}
+.git:hover {
+    cursor: pointer;
+    color: blue;
+}
+.hash{
+    /* width: 100%; */
+}
+.hash ul {
+    width: 100%;
+    padding-left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: #1333A6;
+}
+.hash p{
+    width: 100%;
+}
+
+.hash li{
+    padding: 0.125rem 1rem;
+    margin: 0 0.5rem;
+    font-weight: bold;
+    border-radius: 10rem;
+    transition: all 0.3s ease-in;
+}
+.hash li:hover{
+    cursor: pointer;
+}
+.on{
+    color: white;
+    background-color: #1333A6;
+}
+.more{
+    width: 100%;
+    padding: 0.5rem 1rem;
+    box-sizing: border-box;
+    background-color: rgba(255,255,255,0.5);
+    /* background-color: rgba(255, 227, 237,0.8); */
+    border-radius: 0.5rem;
+    border: 0.3rem solid #1333A6;
+}
+.more p:first-child{
+    font-weight: bold;
+    color: #1333A6;
+}
+.more p:nth-child(2){
+    padding: 0 1rem;
+    box-sizing: border-box;
+    color: darkblue;
+}

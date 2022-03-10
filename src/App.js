@@ -1,65 +1,35 @@
-// import logo from './logo.svg';
-import './App.css';
-import "./style.css";
-
-
-const pj = [
-  {
-    id: 1, title: '고양이 가라사대',
-    site: "https://e-7281998.github.io/cat-jjal-maker/",
-    git: "https://github.com/e-7281998/cat-jjal-maker/tree/main/cat-jjal-maker-cra"
-  },
-  {
-    id: 2, title: 'To Do List',
-    site: "https://e-7281998.github.io/study_react/",
-    git: "https://github.com/e-7281998/study_react/tree/master/todo-app"
-  },
-  {
-    id: 3, title: '여행 사이트',
-    site: "https://e-7281998.github.io/portfolio_site/Private_holidays/",
-    git: "https://github.com/e-7281998/portfolio_site/tree/master/Private_holidays"
-  },
-  {
-    id: 4, title: '패션 사이트',
-    site: "https://e-7281998.github.io/portfolio_site/Avenue%20Fashion/",
-    git: "https://github.com/e-7281998/portfolio_site/tree/master/Avenue%20Fashion"
-  }
-]
-
-const pr = [
-  {
-    title: 'Git', site: "https://github.com/e-7281998",
-  },
-  {
-    title: 'Blog', site: "https://blog.naver.com/jejjcs43"
-  }
-]
-
-function onClick(e) {
-  e.preventDefault();
-  window.open(e.target.value);
-}
+import Introuduce from './component/Introduce';
+import Skill from './component/Skill';
+import Project from './component/Project';
+import styles from './css/App.module.css';
+import { Routes, Route, Link } from 'react-router-dom';
+import { useState } from 'react';
 
 function App() {
+  const [on, setOn] = useState('1');
+  const onClick = (e) => {
+    setOn(() => e.target.value);
+  }
   return (
-    <div>
-      <ul>
-        {pj.map(pj =>
-          <div className='pj'>
-            <button className="title" key={pj.id} onClick={onClick} value={pj.site}>{pj.title}</button>
-            <button className="git" key={pj.id} onClick={onClick} value={pj.git}>코드 보러가기</button>
-          </div>)
-        }
-      </ul>
-      <ul className='prul'>
-        {pr.map(pr =>
-          <div className='pr'>
-            <button className="title" key={pr.title} onClick={onClick} value={pr.site}>{pr.title}</button>
-          </div>
-        )}
-      </ul>
-    </div>
-  )
+    <>
+      <div className={styles.container}>
+        <nav>
+          <Link to='/'><button onClick={onClick} value={'1'} className={on === '1' ? styles.on : ''}>소개</button></Link>
+          <Link to='/skill'><button onClick={onClick} value={'2'} className={on === '2' ? styles.on : ''}>스킬</button></Link>
+          <Link to='/project'><button onClick={onClick} value={'3'} className={on === '3' ? styles.on : ''}>프로젝트</button></Link>
+        </nav>
+        <main>
+          <Routes basename={process.env.PUBLIC_URL}>
+            <Route path='/' element={<Introuduce />} />
+            <Route path='/skill' element={<Skill />} />
+            <Route path='/project' element={<Project />} />
+          </Routes>
+        </main>
+
+      </div>
+    </>
+
+  );
 }
 
 export default App;

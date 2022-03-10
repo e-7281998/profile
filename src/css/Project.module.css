@@ -1,0 +1,56 @@
+.project{
+}
+.project ul{
+    padding-left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    justify-content: space-around;
+    box-sizing: border-box;
+    /* align-items: flex-start; */
+}
+.project > ul > li{
+    margin: 1rem;
+    padding: 1rem 1.5rem;
+    /* width: 50%; */
+    width: 20rem;
+    background-color: aliceblue;
+    border-radius: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: center;
+    align-items: flex-start;
+}
+.project li p:first-child{
+    color:darkblue;
+    font-weight: bold;
+}
+.project li>ul li{
+    padding: 0.2rem 0.7rem;
+    border-radius: 0.5rem;
+    background-color: lightblue;
+    color: darkblue;
+    margin: 0 0.2rem;
+}
+.project button{
+    width: 30%;
+}
+img{
+    width: 100%;
+}
+div.see button{
+    font-size: 0.7rem;
+    width: 40%;
+    margin: 0.5rem 1rem;
+    box-sizing: border-box;
+    border: 0.3rem solid lightblue;
+    background-color: white;
+    color: darkblue;
+    padding: 0.5rem 0;
+}
+div.see button:hover{
+    background-color: lightskyblue;
+    border-color: lightskyblue;
+    color: white;
+}
