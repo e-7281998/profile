@@ -19,7 +19,7 @@ function App() {
           <Link to='/project'><button onClick={onClick} value={'3'} className={on === '3' ? styles.on : ''}>프로젝트</button></Link>
         </nav>
         <main>
-          <Routes basename={process.env.PUBLIC_URL}>
+          <Routes>
             <Route path='/' element={<Introuduce />} />
             <Route path='/skill' element={<Skill />} />
             <Route path='/project' element={<Project />} />
