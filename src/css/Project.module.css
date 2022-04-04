@@ -1,6 +1,6 @@
-.project{
-}
-.project ul{
+.project {}
+
+.project ul {
     padding-left: 0;
     display: flex;
     flex-wrap: wrap;
@@ -9,7 +9,8 @@
     box-sizing: border-box;
     /* align-items: flex-start; */
 }
-.project > ul > li{
+
+.project>ul>li {
     margin: 1rem;
     padding: 1rem 1.5rem;
     /* width: 50%; */
@@ -22,24 +23,29 @@
     justify-content: center;
     align-items: flex-start;
 }
-.project li p:first-child{
-    color:darkblue;
+
+.project li p:first-child {
+    color: darkblue;
     font-weight: bold;
 }
-.project li>ul li{
+
+.project li>ul li {
     padding: 0.2rem 0.7rem;
     border-radius: 0.5rem;
     background-color: lightblue;
     color: darkblue;
     margin: 0 0.2rem;
 }
-.project button{
+
+.project button {
     width: 30%;
 }
-img{
+
+img {
     width: 100%;
 }
-div.see button{
+
+div.see button {
     font-size: 0.7rem;
     width: 40%;
     margin: 0.5rem 1rem;
@@ -49,8 +55,15 @@ div.see button{
     color: darkblue;
     padding: 0.5rem 0;
 }
-div.see button:hover{
+
+div.see button:hover {
     background-color: lightskyblue;
     border-color: lightskyblue;
     color: white;
+}
+
+@media (width<550px) {
+    .project>ul>li {
+        width: 100%;
+    }
 }
