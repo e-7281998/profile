@@ -1,0 +1,89 @@
+[
+    {
+        "title":"펫민 : 돌봄의 민족",
+        "description" : "동네기반 반려건 돌봄 사이트",
+        "team" : "맡겨조",
+        "date" : "23.07 ~ 23.08",
+        "personner" : "6",
+        "role": "Full-stack",
+        "skill": "JAVA, Spring Boot, React, javascript, MySQL, S3, MySQL, styled-components",
+        "job" : [
+            "사용자 및 반려 관련 Rest API 구현",
+            "recoil을 사용해 사용자, 반려견 관련 상태 관리",
+            "다음 우편서비스를 통한 주소 검색 구현",
+            "공용으로 사용할 버튼 컴포넌트 구현",
+            "보험 및 카드 등록, 수정 구현",
+            "펫시터 시험 점수에 따른 권한 구현"
+        ],
+        "git" : "https://github.com/e-7281998/Petmin-client"
+    },{
+        "title":"신디타운",
+        "description" : "신한DS 금융SW 아카데미 커뮤니티 플랫폼",
+        "team" : "신디렐라",
+        "date" : "23.04 ~ 23.05",
+        "personner" : "4",
+        "role": "팀장, Full-stack",
+        "skill": "JAVA, JSP, Servlet, Apache tomcat, MySQL, HTML, CSS, javascript, jQeury",
+        "job" : [
+            "회원가입, 로그인시 단방향 암호화를 활용해 사용자 정보 저장 구현",
+            "새로운 사용자 캘린더 생성 구현",
+            "session을 활용해 접속중인 사용자 목록 구현",
+            "Git open API를 활용해 Git 현황 구현",
+            "webSocket을 활용한 채팅 구현",
+            "추후 유지보수를 위해 환경설정 파일에 인증번호 저장"
+        ],
+        "git" : "https://github.com/e-7281998/shinDTown"
+
+        },{
+        "title":"OTTC",
+        "description" : "외국인 대상 일회용 여행 선불 카드",
+        "team" : "OTT",
+        "date" : "23.05 ~ 23.06",
+        "personner" : "4",
+        "role": "팀장, Full-stack",
+        "skill": "JAVA, Spring Boot, React, javascript, Oracle",
+        "job" : [
+            "Context API를 활용한 상태 관리",
+            "카드 등록, 수정, 삭제 구현",
+            "환율에 따른 카드 잔액 충전, 이동 구현",
+            "그룹 카드 개설 및 정산, 그룹원 내보내기 구현",
+            "개인 정보 수정 구현",
+            "Kakao map API를 활용해 여행 코스 구현"
+        ],
+        "git" : "https://github.com/e-7281998/OneTimeTripCard"
+
+    },{
+        "title":"운동 기록 사이트",
+        "description" : "목표 설정 후 운동 기록하는 사이트",
+        "team" : "개인",
+        "date" : "22.05 ~ 22.06",
+        "personner" : "1",
+        "role": "Front-end",
+        "skill": "React, javascript, styled-components",
+        "job" : [
+            "목표 설정 후 진행 일수 계산",
+            "운동 종목 추가 및 삭제 구현",
+            "운동 내용 저장 및 삭제 구현",
+            "개인정보 수정, 삭제 구현"
+        ],
+        "git" : "https://github.com/e-7281998/exercise-record"
+
+    },{
+        "title":"방송관련 정보 조회",
+        "description" : "방송관련 정보 CRUD 콘솔 프로그램",
+        "team" : "개인",
+        "date" : "23.03",
+        "personner" : "1",
+        "role": "Full-stack",
+        "skill": "JAVA, Oracle, JDBC",
+        "job" : [
+            "신규 방송국 개설 구현",
+            "신규 프로그램 개설 및 계약 구현",
+            "기존 프로그램 수정 및 폐지 구현",
+            "방송 프로그램 및 연예인 정보 카테고리에 따른 정보 조회 구현"
+        ],
+        "git" : "https://github.com/e-7281998/jdbcBroadProject"
+
+    }
+    
+]

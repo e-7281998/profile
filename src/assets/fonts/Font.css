@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "kangwon-bold";
+    src: url("./AnyConv.com_kangwonBold.woff") format("woff");
+}
+
+@font-face {
+    font-family: "kangwon-light";
+    src: url("./AnyConv.com__kangwonLight.woff") format("woff");
+}
+
+@font-face {
+    font-family: "jomhuria-regular";
+    src: url("./Jomhuria-Regular.woff") format("woff");
+}
