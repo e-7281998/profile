@@ -58,8 +58,8 @@ const Browser = styled.div`
   
       &.active0{
         border: 5px solid #F4D160;
-        background: rgb(243,237,219);
-        border-bottom: 5px solid rgb(243,237,219);
+        background: rgb(255 254 236);
+        border-bottom: 5px solid rgb(255 254 236);
       }
       &.active1{
         border: 5px solid #F2BED1;
@@ -83,7 +83,7 @@ const Browser = styled.div`
 
 
   .s0 {
-    background: rgb(243,237,219);
+    background: rgb(255 254 236);
     border: 5px solid #F4D160;
   }
 
