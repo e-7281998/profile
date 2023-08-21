@@ -97,7 +97,7 @@ function Project(props) {
         <MyProject>
             {project.map((project, index) => (
                 <li key={index} className='pointer' onClick={() => handleModal(project)}>
-                    <span>{project.title}</span>
+                    <span>{project.title} - {project.description}</span>
                     <span>{project.team}</span>
                 </li>
             ))}
