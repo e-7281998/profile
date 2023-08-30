@@ -38,14 +38,23 @@
         "role": "팀장, Full-stack",
         "skill": "JAVA, JSP, Servlet, Apache tomcat, MySQL, HTML, CSS, javascript, jQeury",
         "job" : [
-            "회원가입, 로그인시 단방향 암호화를 활용해 사용자 정보 저장 구현",
-            "새로운 사용자 캘린더 생성 구현",
+            "일정 관리 및 프로젝트 관리",
+            "기획 및 요구사항 도출",
+            "Database 설계 및 ERD 작성",
+            "프로젝트 환경 구축",
+            "통합 테스트 시나리오 작성",
+            "단방향 암호화를 통한 개인정보 관련 기능 구현",
+            "web.xml을 활용한 인증번호 저장 및 사용자 유형 구현",
+            "회원가입시 새로운 사용자 캘린더 생성 구현",
             "session을 활용해 접속중인 사용자 목록 구현",
-            "Git open API를 활용해 Git 현황 구현",
-            "webSocket을 활용한 채팅 구현",
-            "추후 유지보수를 위해 환경설정 파일에 인증번호 저장"
+            "Git open API를 통한 개인 Git 현황 구현",
+            "webSocket을 활용한 실시간 채팅 구현"
         ],
-        "git" : "https://github.com/e-7281998/shinDTown"
+        "git" : "https://github.com/e-7281998/shinDTown",
+        "img" :[
+            "shindFront"
+        ],
+        "erd" : "shindErd"
 
         },{
         "title":"OTTC",
@@ -61,9 +70,11 @@
             "환율에 따른 카드 잔액 충전, 이동 구현",
             "그룹 카드 개설 및 정산, 그룹원 내보내기 구현",
             "개인 정보 수정 구현",
-            "Kakao map API를 활용해 여행 코스 구현"
+            "Kakao map API를 활용한 여행 코스 구현"
         ],
-        "git" : "https://github.com/e-7281998/OneTimeTripCard"
+        "git" : "https://github.com/e-7281998/OneTimeTripCard",
+        "erd" : "ottcErd",
+        "gif" : "ottcGif"
 
     },{
         "title":"운동 기록 사이트",
@@ -74,10 +85,11 @@
         "role": "Front-end",
         "skill": "React, javascript, styled-components",
         "job" : [
-            "목표 설정 후 진행 일수 계산",
+            "localStorage에 정보 저장",
+            "목표 설정 후 진행 일수 구현",
             "운동 종목 추가 및 삭제 구현",
             "운동 내용 저장 및 삭제 구현",
-            "개인정보 수정, 삭제 구현"
+            "개인정보 입력, 수정, 삭제 구현"
         ],
         "git" : "https://github.com/e-7281998/exercise-record"
 
@@ -95,7 +107,12 @@
             "기존 프로그램 수정 및 폐지 구현",
             "방송 프로그램 및 연예인 정보 카테고리에 따른 정보 조회 구현"
         ],
-        "git" : "https://github.com/e-7281998/jdbcBroadProject"
+        "git" : "https://github.com/e-7281998/jdbcBroadProject",
+        "img" :[
+            "jdbcFront"
+        ],
+        "erd" : "jdbcErd",
+        "gif" : "jdbcGif"
 
     }
     
