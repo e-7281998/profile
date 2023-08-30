@@ -91,7 +91,11 @@
             "운동 내용 저장 및 삭제 구현",
             "개인정보 입력, 수정, 삭제 구현"
         ],
-        "git" : "https://github.com/e-7281998/exercise-record"
+        "git" : "https://github.com/e-7281998/exercise-record",
+        "img" :[
+            "exercise_info",
+            "exercise_memo"
+        ]
 
     },{
         "title":"방송관련 정보 조회",
