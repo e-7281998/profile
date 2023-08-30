@@ -9,6 +9,7 @@ const Modal = styled.div`
     left: 0;
     width: 80%;
     height: 430px;
+    overflow-y : auto;
     margin: 1% 10%;
     padding: 20px;
     border-radius: 10px;
@@ -51,14 +52,32 @@ const Modal = styled.div`
 
     ul{
         list-style: none;
+        box-sizing: border-box;
 
         span:first-child{
             padding-right: 10px;
             color: darkorange;
         }
+        width: 100%;
 
         li,span:last-child{
             color: grey;
+        }
+
+        .projectImg{
+            width: 100%;
+           ul {
+                li {
+                    width: 100%;
+                    margin-top: 20px;
+
+                    img {
+                        width: 90%;
+                    }
+                }
+           }
+
+           
         }
     }
 `
@@ -122,6 +141,45 @@ function ProjectModal({value,closeModal}) {
                         </ul>
                     </p>
                 </li>
+                {value.img &&
+                    <li className='projectImg'>
+                    <p>
+                        <span>프로젝트 화면</span>
+                        <ul>
+                            {value.img?.map((img, index) =>  (
+                                <li key={index}>
+                                    <img src={require(`../assets/projectImg/${img}.jpg`)} alt='사진' />
+                                </li>
+                            ) )}
+                        </ul>
+                    </p>
+                </li>
+                }
+                {value.erd &&
+                  <li className='projectImg'>
+                    <p>
+                        <span>ERD</span>
+                        <ul>
+                                <li>
+                                    <img src={require(`../assets/projectImg/${value.erd}.jpg`)} alt='사진' />
+                                </li>
+                        </ul>
+                    </p>
+                 </li>   
+                }
+               {value.gif &&
+                  <li className='projectImg'>
+                    <p>
+                        <span>시연영상</span>
+                        <ul>
+                                <li>
+                                    <img src={require(`../assets/projectGif/${value.gif}.gif`)} alt='사진' />
+                                </li>
+                        </ul>
+                    </p>
+                 </li>   
+                }
+               
             </ul>
         </Modal>
     );
