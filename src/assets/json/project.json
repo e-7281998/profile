@@ -8,14 +8,27 @@
         "role": "Full-stack",
         "skill": "JAVA, Spring Boot, React, javascript, MySQL, S3, MySQL, styled-components",
         "job" : [
-            "사용자 및 반려 관련 Rest API 구현",
-            "recoil을 사용해 사용자, 반려견 관련 상태 관리",
-            "다음 우편서비스를 통한 주소 검색 구현",
-            "공용으로 사용할 버튼 컴포넌트 구현",
-            "보험 및 카드 등록, 수정 구현",
-            "펫시터 시험 점수에 따른 권한 구현"
+            "프로젝트 발표",
+            "통합 테스트 시나리오 작성",
+            "기획 및 요구사항 도출",
+            "Database 설계 및 ERD 작성",
+            "프로젝트 환경 구축 및 연관관계 설정",
+            "사용자 및 반려견 관련 Rest API 구현",
+            "Recoil을 활용한 사용자 및 반려견 상태 관리",
+            "다음 우편서비스(daum-post-code)를 활용한 주소 검색 구현",
+            "공통으로 사용할 버튼 컴포넌트 구현",
+            "보험 및 카드 관련 Rest API 구현",
+            "보험 가입 및 카드 등록, 수정 구현",
+            "시험 점수에 따른 펫시터 권한 부여 구현"
         ],
-        "git" : "https://github.com/e-7281998/Petmin-client"
+        "git" : "https://github.com/e-7281998/Petmin-client",
+        "img" :[
+            "main_user_pet",
+            "addr_assuu_card"
+        ],
+        "erd" : "petminErd",
+        "gif" : "petminGif"
+
     },{
         "title":"신디타운",
         "description" : "신한DS 금융SW 아카데미 커뮤니티 플랫폼",
