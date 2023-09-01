@@ -99,6 +99,24 @@
         ]
 
     },{
+        "title":"Nextron chat",
+        "description" : "채팅 어플리케이션",
+        "team" : "개인",
+        "date" : "23.01",
+        "personner" : "1",
+        "role": "Full-stack",
+        "skill": "Nextron, Firebase, socket.io",
+        "job" : [
+            "회원가입, 로그인 구현",
+            "socket.io를 활용해 1:1, 그룹 채팅방 개설 및 채팅 구현"
+        ],
+        "git" : "https://github.com/e-7281998/nextron_chat",
+        "img" :[
+            "chatroom"
+        ],
+        "gif" : "nextronchat"
+
+    },{
         "title":"방송관련 정보 조회",
         "description" : "방송관련 정보 CRUD 콘솔 프로그램",
         "team" : "개인",
