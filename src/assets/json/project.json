@@ -6,7 +6,7 @@
         "date" : "23.07 ~ 23.08",
         "personner" : "6",
         "role": "Full-stack",
-        "skill": "JAVA, Spring Boot, React, javascript, MySQL, S3, MySQL, styled-components",
+        "skill": "JAVA, Spring Boot, React, javascript, MySQL, S3, styled-components",
         "job" : [
             "프로젝트 발표",
             "통합 테스트 시나리오 작성",
