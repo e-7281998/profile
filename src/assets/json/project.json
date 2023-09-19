@@ -14,7 +14,7 @@
             "주소 입력 - 다음 주소 API 연동",
             "공통 컴포넌트 구현(버튼, 주소)",
             "Recoil 활용 상태 관리",
-            " 프로젝트 프리젠테이션"
+            "프로젝트 프리젠테이션"
         ],
         "git" : "https://github.com/e-7281998/Petmin-client",
         "img" :[
@@ -35,7 +35,7 @@
         "job" : [
             "프로젝트 일정관리",
             "프로젝트 기획, 요구사항 작성, Database설계 및 환경 셋팅",
-            "사용자, Github, 채팅 구현(CRUD",
+            "사용자, Github, 채팅 구현(CRUD)",
             "단방향 암호화 구현",
             "Git 현황 구현 - Git Open API 연동",
             "동적 테이블 생성 - 프로시저",
@@ -59,7 +59,7 @@
         "role": "팀장, Full-stack",
         "skill": "JAVA, Spring Boot, React, javascript, Oracle",
         "job" : [
-            "프로젝트 일정관",
+            "프로젝트 일정관리",
             "프로젝트 기획, 요구사항 작성, Database설계 및 환경 셋팅",
             "개인 카드, 그룹 카드 구현(CRUD)",
             "여행 경로 구현 - Kakao Map API 연동",
