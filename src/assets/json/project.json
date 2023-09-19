@@ -40,7 +40,7 @@
             "Git 현황 구현 - Git Open API 연동",
             "동적 테이블 생성 - 프로시저",
             "사용자 정보 유지(session 활용)",
-            "사용자 정보 유지(session 활용)",
+            "접속중인 사용자 목록 구현(context 활용)",
             "환경 설정파일 활용(인증번호 저장)",
             "채팅 구현 - websocket"
         ],
@@ -97,7 +97,7 @@
         "date" : "23.01",
         "personner" : "1",
         "role": "Full-stack",
-        "skill": "Nextron, Firebase, socket.io",
+        "skill": "Nextron, Firebase, Socket.IO",
         "job" : [
             "회원가입, 로그인 구현",
             "접속중인 사용자 목록 구현",
